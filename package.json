@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "configcat-react": "^4.8.0",
     "expo": "~52.0.27",
     "expo-status-bar": "~2.0.1",
     "react": "18.3.1",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~18.3.12",
+    "react-native-dotenv": "^3.4.11",
     "typescript": "^5.3.3"
   },
   "private": true
