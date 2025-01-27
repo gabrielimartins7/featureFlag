@@ -1,4 +1,5 @@
 import { Image, Text, View } from "react-native";
+import { MaterialIcons } from '@expo/vector-icons';
 
 import { useFeatureFlag } from "configcat-react";
 
@@ -27,9 +28,18 @@ export function Home(){
                 {
                     showEventFeatureBanner && <View style={styles.banner}>
                         <Image source={Icon} style={styles.icon} />
-                        <Text style={styles.title}>Meus objetivos</Text>
+                        <Text style={styles.textBanner}>Monte sua carteira de investimento</Text>
                     </View>
                 }
+                <Text style={styles.securite}>Cuide da segurança do seu futuro</Text>
+
+                <View style={styles.section}>
+                    <MaterialIcons name="account-balance-wallet" size={28} color="#FF6015" />
+                    <View style={styles.subSection}>
+                        <Text style={styles.titleBold}>Reserva de emergência</Text>
+                        <Text style={styles.subtitle}>Esteja preparado se tiver improvisto</Text>
+                    </View>
+                </View>
             </View>
         </View>
     );

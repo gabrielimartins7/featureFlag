@@ -19,12 +19,48 @@ export const styles = StyleSheet.create({
     },
     banner: {
       width: '100%',
-      height: 250,
-      backgroundColor: '#f8f8f8',
-      borderRadius: 8
+      height: 180,
+      backgroundColor: '#221E5B',
+      borderRadius: 24,
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      padding: 22
     },
     icon: {
-      width: 100,
-      height: 100,
+      width: 80,
+      height: 80,
+    },
+    textBanner: {
+      color: '#ffff',
+      fontSize: 20
+    },
+    securite: {
+      color: '#ffff',
+      fontSize: 20,
+      fontWeight: 'bold',
+      marginTop: 18
+    },
+    section: {
+      width: '100%',
+      height: 80,
+      backgroundColor: '#221E5B',
+      borderRadius: 18,
+      flexDirection: 'row',
+      alignItems: 'center',
+      paddingHorizontal: 14,
+      marginTop: 20
+    },
+    subSection: {
+      marginLeft: 20
+    },
+    titleBold: {
+      color: '#ffff',
+      fontSize: 18,
+      fontWeight: 'bold',
+    },
+    subtitle: {
+      color: '#ffff',
+      fontSize: 16,
     }
   });
